@@ -13,6 +13,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script src="assets/components/header.js" type="text/javascript" defer></script>
+		<script src="assets/components/sidebar.js" type="text/javascript" defer></script>
 	</head>
 	<body>
 
@@ -24,98 +26,27 @@
 				<div class="inner">
 
 					<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo"><strong>ySIS</strong></a>
-						<ul class="icons">
-							<li><a href="https://twitter.com/y_SIStatistica" class="icon fa-twitter"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.facebook.com/youngSIStatistica" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.instagram.com/young_sistat/" class="icon fa-instagram"><span class="label">Twitter</span></a></li>
-						</ul>
-					</header>
-
+					<header-component></header-component>
 
 					<!-- Section -->
 					<section>
-						<section>
-
-							<h2>Tell me Y-SIS: Share, Inform, Stimulate</h2>
-							<p> 
-							Tell me Y-SIS is a new way for our members to share the insights of their most recent articles and inform the scientific community via our social channels.
-              We aim to disseminate recent scientific achievements of young researchers and stimulate the exchange of ideas.
-								</p>
-							<p>
-              Fill out the <a href="https://forms.gle/NdEbuAb6vSf95Vbj7"> form</a> if you want to tell us about your last paper and share the highlights with the social community!
-
-							<br>
-							</p>
-							<p>
-							</p>
-
-		
-							<iframe src="https://forms.gle/NdEbuAb6vSf95Vbj7" width="760" height="638" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-							<!-- https://drive.google.com/open?id=1WObsM631p_dmwCpi1zFZcvu6bmx7Arh1U9SHygBqIBw -->
-						</section>
-
-
+						<h2>Tell me y-SIS: Share, Inform, Stimulate</h2>
+						<p>
+							Tell me Y-SIS is a new way for our members to share the insights of their most recent articles and inform the scientific community via our social channels. We aim to disseminate recent scientific achievements of young researchers and stimulate the exchange of ideas.
+						</p>
+						<p>
+							Fill out the following form if you want to tell us about your last paper and share the highlights with the social community!
+						</p>
+						<p align="center">
+							<iframe src="https://forms.gle/NdEbuAb6vSf95Vbj7" width="100%" height="638" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+						</p>
+					</section>
 
 				</div>
 			</div>
 
 			<!-- Sidebar -->
-			<div id="sidebar">
-				<div class="inner">
-
-
-					<!-- Menu -->
-					<nav id="menu">
-						<header class="major">
-							<h2>Menu</h2>
-						</header>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<span class="opener">Events</span>
-								<ul>
-									<li><a href="upcoming_events.html">Upcoming events</a></li>
-									<li><a href="past_events.html">Past events</a></li>
-								</ul>
-							</li>
-
-							<li>
-								<span class="opener">Board</a></span>
-								<ul>
-									<li><a href="officers.html">Current officers</a></li>
-									<li><a href="past_officers.html">Past officers</a></li>
-								</ul>
-
-							</li>
-							<!--<li><a href="officers.html">Officers</a></li>-->
-					                <li><a href="tell_me_y.html">Tell me Y-SIS </a></li> 
-							<!--<li><a href="elections2024.html">Elections 2024 </a></li> -->
-							<li><a href="phd_list.html">PhD programmes in statistics</a></li>
-							<li><a href="registration.html">Join us</a></li>
-							<li><a href="bylaws_newsletter.html">Regulations and past newsletters</a></li>
-							<li><a href="links.html">Useful links</a></li>
-						</ul>
-					</nav>
-					<!-- Section -->
-					<section>
-						<header class="major">
-							<h2>Get in touch</h2>
-						</header>
-
-						<ul class="contact">
-							<li class="fa-envelope-o"><a href="mailto:youngsis.2013@gmail.com">youngsis.2013@gmail.com</a></li>
-							<li class="fa-facebook"><a href="https://www.facebook.com/youngSIStatistica">Facebook</a></li>
-							<li class="fa-twitter"><a href="https://twitter.com/y_SIStatistica">Twitter</a></li>
-							<li class="fa fa-instagram"><a href="https://www.instagram.com/young_sistat/">Instagram</a></li>
-						</ul>
-					</section>
-
-					<!-- Footer -->
-
-				</div>
-			</div>
+			<sidebar-component></sidebar-component>
 
 		</div>
 
