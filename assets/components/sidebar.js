@@ -30,7 +30,13 @@ class Sidebar extends HTMLElement {
                         <li><a href="tell_me_y.html">Tell me y-SIS</a></li>
                         <li><a href="phd_list.html">PhD programmes in statistics</a></li>
                         <li><a href="registration.html">Join us</a></li>
-                        <li><a href="regulation_it.html">Regulations</a></li>
+                        <li>
+                            <span class="opener">Regulations</span>
+                            <ul>
+                                <li><a href="regulation_it.html">Regolamento (Italiano)</a></li>
+                                <li><a href="regulation_eng.html">Regulation (English)</a></li>
+                            </ul>
+                        </li>
                         <li><a href="links.html">Useful links</a></li>
                     </ul>
                 </nav>
