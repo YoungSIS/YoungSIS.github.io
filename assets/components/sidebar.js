@@ -27,6 +27,7 @@ class Sidebar extends HTMLElement {
                                 <li><a href="past_officers.html">Past officers</a></li>
                             </ul>
                         </li>
+                        <li><a href="newsletters.html">Newsletters</a></li>
                         <li><a href="tell_me_y.html">Tell me y-SIS</a></li>
                         <li><a href="phd_list.html">PhD programmes in statistics</a></li>
                         <li><a href="registration.html">Join us</a></li>
