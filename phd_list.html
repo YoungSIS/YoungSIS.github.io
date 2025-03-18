@@ -13,6 +13,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script src="assets/components/header.js" type="text/javascript" defer></script>
+		<script src="assets/components/sidebar.js" type="text/javascript" defer></script>
 	</head>
 	<body>
 
@@ -24,289 +26,224 @@
 				<div class="inner">
 
 					<!-- Header -->
-					<header id="header">
+					<header-component></header-component>
+					<!-- <header id="header"> -->
 						<!--<a href="index.html" class="logo"><strong>ySIS</strong></a>-->
-		<h4>PhD programmes in Statistics (or with a curriculum in Statistics)</h4>
+		<!-- <h4>PhD programmes in Statistics (or with a curriculum in Statistics)</h4>
 						<ul class="icons">
 							<li><a href="https://twitter.com/y_SIStatistica" class="icon fa-twitter"><span class="label">Facebook</span></a></li>
 							<li><a href="https://www.facebook.com/youngSIStatistica" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 							<li><a href="https://www.instagram.com/young_sistat/" class="icon fa-instagram"><span class="label">Twitter</span></a></li>
 						</ul>
-					</header>
-					<div class="20u 20u$(small)">
-								<em>
-									This list is in continuous evolution, and might be subject to frequent changes. Please contact us if you find some typos, or if you think that some other programme should be included. We have included PhD programmes in Statistics, Statistical Sciences and Data Sciences, or PhD in other subjects which explicitly include a curriculum in Statistics and related topics.
-								</em>
-							</div>
+					</header> -->
+					
 					<section>
-						<section>
-							<div class="table-wrapper">
-								<table>
-									<colgroup>
-										<col style="width: 21%" />
-										<col style="width: 29%" />
-										<col style="width: 16%" />
-										<col style="width: 31%" />
-									</colgroup>
-									<thead>
-										<tr class="header">
-											<th>City/University</th>
-											<th>PhD course</th>
-											<th>Contact person</th>
-											<th>Website</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr class="odd">
-											<td>Bologna</td>
-											<td>PhD in Statistical Sciences</td>
-											<td>angela.montanari@unibo.it</td>
-											<td><a href="https://phd.unibo.it/statistics/en">link</a></td>
-										</tr>
-										<tr class="even">
-											<td>Bologna, Cattolica Milano, Ferrara, Modena e Reggio Emilia, Parma, Milano Politecnico</td>
-											<td>PhD FutureData4EU</td>
-											<td>cofund@unibo.it</td>
-											<td><a href="https://site.unibo.it/futuredata4eu/en">link</a></td>
-										</tr>
-										<tr class="even">
-											<td>Brescia</td>
-											<td>PhD in Analytics for Economics and Management</td>
-											<td>giorgia.oggioni@unibs.it</td>
-											<td><a href="https://aem.unibs.it/">link</a></td>
-										</tr>
-										<tr class="even">
-											<td>Chieti - Pescara</td>
-											<td>PhD in Human Sciences</td>
-											<td>elsa.bruni@unich.it</td>
-											<td><a href="https://www.disfipeq.unich.it/node/8796">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Firenze, Perugia, INdAM</td>
-											<td>Dottorato in Matematica, Informatica, Statistica</td>
-											<td>anna.gottard@unifi.it</td>
-											<td><a href="https://www.phdmatinfstat.unifi.it/index.html">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Firenze, IMT Lucca</td>
-											<td>Dottorato in Social Sciences for Sustainability and Wellbeing</td>
-											<td>leonardo.boncinelli@unifi.it</td>
-											<td><a href="https://www.s3w.unifi.it/">link</a></td>
-										</tr>
-										<tr class="even">
-											<td>IMT Lucca</td>
-											<td>PhD in Economics, Analytics and Decision Sciences</td>
-											<td>ennio.bilancini@imtlucca.it</td>
-											<td><a href="https://eads.imtlucca.it/eadsimt-school">link</a></td>
-										</tr>
-										<tr class="even">
-											<td>Messina, Catania</td>
-											<td>PhD in Economics, Management and Statistics</td>
-											<td>fabrizio.cesaroni@unime.it</td>
-											<td><a href="https://economics-management-statistics.phd.unime.it/it">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Milano Bicocca</td>
-											<td>PhD in Economics, Statistics and Data Science</td>
-											<td>matteo.manera@unimib.it </td>
-											<td><a href="https://www.dems.unimib.it/en/research/phd-programme">link</a></td>
-										</tr>
-										<tr class="even">
-											<td>Milano Bocconi</td>
-											<td>PhD in Statistics and Computer Science</td>
-											<td>antonio.lijoi@unibocconi.it</td>
-											<td><a href="http://www.unibocconi.eu/phdstatscompscience">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Milano Politecnico</td>
-											<td>PhD in Mathematical Models and Methods in Engineering </td>
-											<td>michele.correggi@polimi.it</td>
-											<td><a href="https://www.mate.polimi.it/dottorato/">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Milano Politecnico</td>
-											<td>PhD Programme in Data Analytics and Decision Sciences</td>
-											<td>piercesare.secchi@polimi.it</td>
-											<td><a href="https://phd-dads.polimi.it/">link</a></td>
-										</tr>
-										<tr class="even">
-											<td>Napoli</td>
-											<td>Dottorato in Ingegneria Industriale</td>
-											<td>michele.grassi@unina.it</td>
-											<td><a href="http://www.dii.unina.it/page.php?tabella=livello2&id_livello=131&flag=link&livello1=7&livello2=0&livello3=0">link</a></td>
-										</tr>
-										<tr class="even">
-											<td>Napoli</td>
-											<td>Dottorato in Scienze Sociali e Statistiche</td>
-											<td>enrica.amaturo@unina.it</td>
-											<td><a href="https://www.scienzesociali.unina.it/-/59844952-40-ciclo-scienze-sociali-e-statistiche">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Padova</td>
-											<td>PhD in Statistics</td>
-											<td>nicola.sartori@unipd.it</td>
-											<td><a href="https://www.stat.unipd.it/ricerca/dottorato-di-ricerca">link</a></td>
-										</tr>
-										<tr class="even">
-											<td>Palermo</td>
-											<td>Dottorato di ricerca in Scienze Economiche e Statistiche</td>
-											<td>vito.muggeo@unipa.it</td>
-											<td><a href="https://www.unipa.it/dipartimenti/seas/dottorati/economicsbusinessandstatistics">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Pavia IUSS</td>
-											<td>National Phd in Sustainable Development and Climate Change - Socioeconomic impacts and risks</td>
-											<td>phd-sdc.coordinator@iusspavia.it</td>
-											<td><a href="https://www.phd-sdc.it/">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Pavia, Svizzera Italiana</td>
-											<td>PhD in Computational Mathematics and Decision Sciences</td>
-											<td>luca.pavarino@unipv.it</td>
-											<td><a href="http://phd.unipv.it/comp-mat/">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Perugia</td>
-											<td>PhD in Economics</td>
-											<td>maria.ranalli@unipg.it</td>
-											<td><a href="https://econ.unipg.it/en/?view=article&id=114:general-information&catid=58">link</a></td>
-										</tr>
-										<tr class="even">
-											<td>Pisa</td>
-											<td>PhD in Data Science</td>
-											<td>dino.pedreschi@unipi.it</td>
-											<td><a href="https://datasciencephd.eu/">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Roma Sapienza</td>
-											<td>PhD Programme “School of Statistical Sciences”</td>
-											<td>donatella.vicari@uniroma1.it</td>
-											<td><a href="https://phd.uniroma1.it/web/SCHOOL-OF-STATISTICAL-SCIENCES_nD3544_EN.aspx">link</a></td>
-										</tr>
-										<tr class="even">
-											<td>Roma Sapienza</td>
-											<td>PhD in Data Science</td>
-											<td>dottoratods@diag.uniroma1.it</td>
-											<td><a href="https://phd.uniroma1.it/web/DATA-SCIENCE_nD3565_IT.aspx">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Roma Sapienza</td>
-											<td>PhD in Models for Economics and Finance (curriculum in Mathematical and Statistical Models for Economics and Finance)</td>
-											<td>filippo.celata@uniroma1.it</td>
-											<td><a href="https://sites.google.com/a/uniroma1.it/phdschooleconomics/home">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Roma Tor Vergata</td>
-											<td>PhD in Economics and Finance</td>
-											<td>gaetano.bloise@uniroma2.it</td>
-											<td><a href="https://economia.uniroma2.it/phd/ef">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Salerno</td>
-											<td>Dottorato in Economia e Politiche dei Mercati e delle Imprese (curriculum in Metodi Statistici)</td>
-											<td>eindraccolo@unisa.it</td>
-											<td><a href="https://corsi.unisa.it/economia-e-politiche-dei-mercati-e-delle-imprese">link</a></td>
-										</tr>
-										<tr class="even">
-											<td>Torino</td>
-											<td>PhD Modeling and Data Science</td>
-											<td>laura.sacerdote@unito.it</td>
-											<td><a href="https://dottorato-mds.campusnet.unito.it/do/home.pl">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Torino, Torino Politecnico, INdAM</td>
-											<td>PhD in Pure and Applied Mathematics</td>
-											<td>annamaria.fino@unito.it</td>
-											<td><a href="https://poliuni-mathphd-en.campusnet.unito.it/do/home.pl/View?doc=/content/about_this_programme.html">link</a></td>
-										</tr>
-										<tr class="even">
-											<td>Trento</td>
-											<td>PhD Programme in Mathematics</td>
-											<td>valter.moretti@unitn.it</td>
-											<td><a href="https://www.unitn.it/drmath/34/schools-curricula">link</a></td>
-										</tr>
-										<tr class="odd">
-											<td>Trieste</td>
-											<td>PhD in Applied Data Science and Artificial Intelligence</td>
-											<td>phd.adsai@units.it</td>
-											<td><a href="https://adsai.units.it/">link</a></td>
-										</tr>
-		
-									</tbody>
-								</table>
-
-							</div>
-
-
-
-							<!--Trick to include some space-->
-							<h1></h1> 
-
-
-
-
-
-							<!-- Content -->
-
-						</section>
-
-
+						<h2>PhD programmes in Statistics (or with a curriculum in Statistics)</h2>
+						<div class="20u 20u$(small)" align="justify">
+							<i>This list is in continuous evolution, and might be subject to frequent changes. Please contact us if you find some typos, or if you think that some other programme should be included. We have included PhD programmes in Statistics, Statistical Sciences and Data Sciences, or PhD in other subjects which explicitly include a curriculum in Statistics and related topics.</i>
+						</div>
+						<div><br><br></div>
+						<div class="table-wrapper">
+							<table>
+								<colgroup>
+									<col style="width: 21%" />
+									<col style="width: 29%" />
+									<col style="width: 16%" />
+									<col style="width: 31%" />
+								</colgroup>
+								<thead>
+									<tr class="header">
+										<th>City/University</th>
+										<th>PhD course</th>
+										<th>Contact person</th>
+										<th>Website</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="odd">
+										<td>Bologna</td>
+										<td>PhD in Statistical Sciences</td>
+										<td>angela.montanari@unibo.it</td>
+										<td><a href="https://phd.unibo.it/statistics/en" target="_blank">link</a></td>
+									</tr>
+									<tr class="even">
+										<td>Bologna, Cattolica Milano, Ferrara, Modena e Reggio Emilia, Parma, Milano Politecnico</td>
+										<td>PhD FutureData4EU</td>
+										<td>cofund@unibo.it</td>
+										<td><a href="https://site.unibo.it/futuredata4eu/en" target="_blank">link</a></td>
+									</tr>
+									<tr class="even">
+										<td>Brescia</td>
+										<td>PhD in Analytics for Economics and Management</td>
+										<td>giorgia.oggioni@unibs.it</td>
+										<td><a href="https://aem.unibs.it/" target="_blank">link</a></td>
+									</tr>
+									<tr class="even">
+										<td>Chieti - Pescara</td>
+										<td>PhD in Human Sciences</td>
+										<td>elsa.bruni@unich.it</td>
+										<td><a href="https://www.disfipeq.unich.it/node/8796" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Firenze, Perugia, INdAM</td>
+										<td>Dottorato in Matematica, Informatica, Statistica</td>
+										<td>anna.gottard@unifi.it</td>
+										<td><a href="https://www.phdmatinfstat.unifi.it/index.html" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Firenze, IMT Lucca</td>
+										<td>Dottorato in Social Sciences for Sustainability and Wellbeing</td>
+										<td>leonardo.boncinelli@unifi.it</td>
+										<td><a href="https://www.s3w.unifi.it/" target="_blank">link</a></td>
+									</tr>
+									<tr class="even">
+										<td>IMT Lucca</td>
+										<td>PhD in Economics, Analytics and Decision Sciences</td>
+										<td>ennio.bilancini@imtlucca.it</td>
+										<td><a href="https://eads.imtlucca.it/eadsimt-school" target="_blank">link</a></td>
+									</tr>
+									<tr class="even">
+										<td>Messina, Catania</td>
+										<td>PhD in Economics, Management and Statistics</td>
+										<td>fabrizio.cesaroni@unime.it</td>
+										<td><a href="https://economics-management-statistics.phd.unime.it/it" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Milano Bicocca</td>
+										<td>PhD in Economics, Statistics and Data Science</td>
+										<td>matteo.manera@unimib.it </td>
+										<td><a href="https://www.dems.unimib.it/en/research/phd-programme" target="_blank">link</a></td>
+									</tr>
+									<tr class="even">
+										<td>Milano Bocconi</td>
+										<td>PhD in Statistics and Computer Science</td>
+										<td>antonio.lijoi@unibocconi.it</td>
+										<td><a href="http://www.unibocconi.eu/phdstatscompscience" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Milano Politecnico</td>
+										<td>PhD in Mathematical Models and Methods in Engineering </td>
+										<td>michele.correggi@polimi.it</td>
+										<td><a href="https://www.mate.polimi.it/dottorato/" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Milano Politecnico</td>
+										<td>PhD Programme in Data Analytics and Decision Sciences</td>
+										<td>piercesare.secchi@polimi.it</td>
+										<td><a href="https://phd-dads.polimi.it/" target="_blank">link</a></td>
+									</tr>
+									<tr class="even">
+										<td>Napoli</td>
+										<td>Dottorato in Ingegneria Industriale</td>
+										<td>michele.grassi@unina.it</td>
+										<td><a href="http://www.dii.unina.it/page.php?tabella=livello2&id_livello=131&flag=link&livello1=7&livello2=0&livello3=0" target="_blank">link</a></td>
+									</tr>
+									<tr class="even">
+										<td>Napoli</td>
+										<td>Dottorato in Scienze Sociali e Statistiche</td>
+										<td>enrica.amaturo@unina.it</td>
+										<td><a href="https://www.scienzesociali.unina.it/-/59844952-40-ciclo-scienze-sociali-e-statistiche" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Padova</td>
+										<td>PhD in Statistics</td>
+										<td>nicola.sartori@unipd.it</td>
+										<td><a href="https://www.stat.unipd.it/ricerca/dottorato-di-ricerca" target="_blank">link</a></td>
+									</tr>
+									<tr class="even">
+										<td>Palermo</td>
+										<td>Dottorato di ricerca in Scienze Economiche e Statistiche</td>
+										<td>vito.muggeo@unipa.it</td>
+										<td><a href="https://www.unipa.it/dipartimenti/seas/dottorati/economicsbusinessandstatistics" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Pavia IUSS</td>
+										<td>National Phd in Sustainable Development and Climate Change - Socioeconomic impacts and risks</td>
+										<td>phd-sdc.coordinator@iusspavia.it</td>
+										<td><a href="https://www.phd-sdc.it/" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Pavia, Svizzera Italiana</td>
+										<td>PhD in Computational Mathematics and Decision Sciences</td>
+										<td>luca.pavarino@unipv.it</td>
+										<td><a href="http://phd.unipv.it/comp-mat/" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Perugia</td>
+										<td>PhD in Economics</td>
+										<td>maria.ranalli@unipg.it</td>
+										<td><a href="https://econ.unipg.it/en/?view=article&id=114:general-information&catid=58" target="_blank">link</a></td>
+									</tr>
+									<tr class="even">
+										<td>Pisa</td>
+										<td>PhD in Data Science</td>
+										<td>dino.pedreschi@unipi.it</td>
+										<td><a href="https://datasciencephd.eu/" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Roma Sapienza</td>
+										<td>PhD Programme “School of Statistical Sciences”</td>
+										<td>donatella.vicari@uniroma1.it</td>
+										<td><a href="https://phd.uniroma1.it/web/SCHOOL-OF-STATISTICAL-SCIENCES_nD3544_EN.aspx" target="_blank">link</a></td>
+									</tr>
+									<tr class="even">
+										<td>Roma Sapienza</td>
+										<td>PhD in Data Science</td>
+										<td>dottoratods@diag.uniroma1.it</td>
+										<td><a href="https://phd.uniroma1.it/web/DATA-SCIENCE_nD3565_IT.aspx" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Roma Sapienza</td>
+										<td>PhD in Models for Economics and Finance (curriculum in Mathematical and Statistical Models for Economics and Finance)</td>
+										<td>filippo.celata@uniroma1.it</td>
+										<td><a href="https://sites.google.com/a/uniroma1.it/phdschooleconomics/home" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Roma Tor Vergata</td>
+										<td>PhD in Economics and Finance</td>
+										<td>gaetano.bloise@uniroma2.it</td>
+										<td><a href="https://economia.uniroma2.it/phd/ef" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Salerno</td>
+										<td>Dottorato in Economia e Politiche dei Mercati e delle Imprese (curriculum in Metodi Statistici)</td>
+										<td>eindraccolo@unisa.it</td>
+										<td><a href="https://corsi.unisa.it/economia-e-politiche-dei-mercati-e-delle-imprese" target="_blank">link</a></td>
+									</tr>
+									<tr class="even">
+										<td>Torino</td>
+										<td>PhD Modeling and Data Science</td>
+										<td>laura.sacerdote@unito.it</td>
+										<td><a href="https://dottorato-mds.campusnet.unito.it/do/home.pl" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Torino, Torino Politecnico, INdAM</td>
+										<td>PhD in Pure and Applied Mathematics</td>
+										<td>annamaria.fino@unito.it</td>
+										<td><a href="https://poliuni-mathphd-en.campusnet.unito.it/do/home.pl/View?doc=/content/about_this_programme.html" target="_blank">link</a></td>
+									</tr>
+									<tr class="even">
+										<td>Trento</td>
+										<td>PhD Programme in Mathematics</td>
+										<td>valter.moretti@unitn.it</td>
+										<td><a href="https://www.unitn.it/drmath/34/schools-curricula" target="_blank">link</a></td>
+									</tr>
+									<tr class="odd">
+										<td>Trieste</td>
+										<td>PhD in Applied Data Science and Artificial Intelligence</td>
+										<td>phd.adsai@units.it</td>
+										<td><a href="https://adsai.units.it/" target="_blank">link</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</section>
 
 				</div>
 			</div>
 
 			<!-- Sidebar -->
-			<div id="sidebar">
-				<div class="inner">
-					<!-- Menu -->
-					<nav id="menu">
-						<header class="major">
-							<h2>Menu</h2>
-						</header>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<span class="opener">Events</span>
-								<ul>
-									<li><a href="upcoming_events.html">Upcoming events</a></li>
-									<li><a href="past_events.html">Past events</a></li>
-								</ul>
-							</li>
-
-							<li>
-								<span class="opener">Board</a></span>
-								<ul>
-									<li><a href="officers.html">Current officers</a></li>
-									<li><a href="past_officers.html">Past officers</a></li>
-								</ul>
-
-							</li>
-							<!--<li><a href="officers.html">Officers</a></li>-->
-					                <li><a href="tell_me_y.html">Tell me Y-SIS </a></li>
-							<!--<li><a href="elections2024.html">Elections 2024 </a></li>-->
-							<li><a href="phd_list.html">PhD programmes in statistics</a></li>
-							<li><a href="registration.html">Join us</a></li>
-							<li><a href="bylaws_newsletter.html">Regulations and past newsletters</a></li>
-							<li><a href="links.html">Useful links</a></li>
-						</ul>
-					</nav>
-					<!-- Section -->
-					<section>
-						<header class="major">
-							<h2>Get in touch</h2>
-						</header>
-
-						<ul class="contact">
-							<li class="fa-envelope-o"><a href="mailto:youngsis.2013@gmail.com">youngsis.2013@gmail.com</a></li>
-							<li class="fa-facebook"><a href="https://www.facebook.com/youngSIStatistica">Facebook</a></li>
-							<li class="fa-twitter"><a href="https://twitter.com/y_SIStatistica">Twitter</a></li>
-						</ul>
-					</section>
-
-					<!-- Footer -->
-
-				</div>
-			</div>
+			<sidebar-component></sidebar-component>
 
 		</div>
 
@@ -316,6 +253,7 @@
 		<script src="assets/js/util.js"></script>
 		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 		<script src="assets/js/main.js"></script>
+		<script src="assets/js/fade-in-content.js"></script>
 
 		<script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-90234804-1', 'auto');ga('send', 'pageview');</script>

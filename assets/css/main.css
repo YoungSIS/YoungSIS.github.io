@@ -3469,6 +3469,15 @@
 		min-height: 100vh;
 	}
 
+	#wrapper > *:not(sidebar-component){
+		opacity: 0;
+		transition: opacity 0.5s ease-in-out;
+	}
+
+	#wrapper.show > *:not(sidebar-component){
+		opacity: 1;
+	}
+
 /* Main */
 
 	#main {
