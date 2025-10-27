@@ -24,6 +24,7 @@ class Sidebar extends HTMLElement {
                             <span class="opener">Board</a></span>
                             <ul>
                                 <li><a href="officers.html">Current officers</a></li>
+								<li><a href="elections2025.html">Candidates</a></li>
                                 <li><a href="past_officers.html">Past officers</a></li>
                             </ul>
                         </li>
