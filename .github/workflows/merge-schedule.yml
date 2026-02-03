@@ -1,14 +1,16 @@
-name: Scheduled Merge
+name: Merge Schedule
 
 on:
   pull_request:
+    branches:
+      - master
     types:
       - opened
       - edited
       - synchronize
-  schedule:
-    # https://crontab.guru/every-hour
-    - cron: '0 * * * *'
+  # schedule:
+  #   # https://crontab.guru/every-hour
+  #   - cron: '0 * * * *'
 
 jobs:
   merge_schedule:
