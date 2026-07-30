@@ -28,6 +28,7 @@ class Sidebar extends HTMLElement {
                             </ul>
                         </li>
                         <li><a href="newsletters.html">Newsletters</a></li>
+                        <li><a href="ysis_awards.html">Y-SIS awards</a></li>
                         <li><a href="tell_me_y.html">Tell me y-SIS</a></li>
                         <li><a href="phd_list.html">PhD programmes in statistics</a></li>
                         <li><a href="registration.html">Join us</a></li>
