@@ -48,10 +48,11 @@ class Sidebar extends HTMLElement {
                         <h2>Get in touch</h2>
                     </header>
                     <ul class="contact">
-                        <li class="fa-envelope-o"><a href="mailto:youngsis.2013@gmail.com">youngsis.2013@gmail.com</a></li>
-                        <li class="fa-facebook"><a href="https://www.facebook.com/youngSIStatistica">Facebook</a></li>
-                        <li class="fa-twitter"><a href="https://twitter.com/y_SIStatistica">Twitter</a></li>
-                        <li class="fa-instagram"><a href="https://www.instagram.com/young_sistat/">Instagram</a></li>
+                        <li class="fa-envelope-o"><a href="mailto:youngsis.2013@gmail.com" target="_blank">youngsis.2013@gmail.com</a></li>
+                        <li class="fa-facebook"><a href="https://www.facebook.com/youngSIStatistica" target="_blank">Facebook</a></li>
+                        <li class="fa-twitter"><a href="https://x.com/y_SIStatistica" target="_blank">Twitter</a></li>
+                        <li class="fa-instagram"><a href="https://www.instagram.com/young_sistat/" target="_blank">Instagram</a></li>
+                        <li class="fa-linkedin"><a href="https://www.linkedin.com/company/young-sis" target="_blank">LinkedIn</a></li>
                     </ul>
                 </section>
             </div>
